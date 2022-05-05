@@ -1,0 +1,157 @@
+ <!doctype html>
+<html>
+ <head>
+  <link rel="stylesheet" href="style/bootstrap.css"/>
+ <link rel="stylesheet" href="style/allstyle.css">
+ <link rel="stylesheet" href="style/effects.css">
+  
+ <script src="js/jquery-1.11.1.js" ></script>
+ <script src="js/jscode1.js" ></script>
+ <script src="js/jquery-ui.js"></script>
+
+  
+ </head>
+ <body>
+ <main class="container">
+ 	<div class="row">
+ 		<div id="startpage">
+ 		<section id="game">
+   		<header id="title" >
+  	 		<h3>Color Basket</h3>
+  		</header>
+   		<article id="start" class="btn btn-danger">
+  			 Start
+   		</article>
+  		<br/>
+   		<section>
+   		<br/>
+   	<div id="img0">
+     		<img src="images/orange_alien.png"  id="d1" class="bounce animated">
+		<img src="images/brown_alien.png"  id="d2">
+   		<img src="images/yellow_alien.png"  id="d3" class="bounce animated">
+		<img src="images/red_alien.png"  id="d4" >
+   		<img src="images/blue_alien.png"  id="d5">
+   		<img src="images/green_alien.png"  id="d6" class="bounce animated">
+   		<img src="images/blue_alien.png"  id="d7" class="bounce animated">
+	 </div>
+   		</section>
+   		<footer>
+   		</footer>
+   		</section>
+   		</div>
+   		
+   		<div id="page1">
+ 		
+ 				<section id="game1">
+   				<article >
+    				<h2 class="alert alert-dismissable alert-warning">This is Mr.Red, Collect all the red articles in the basket!!</h2>
+				<br/>
+  				<div id="a1"> </div>
+   				</article>
+   				<article>
+				<div id="img1"><center><img  id="imge1"src="images/red_alien.png" /></center> </div>
+				</article> 
+    				<hr/>
+    				</section>
+ 			
+ 		</div>
+ 
+ 
+ 
+ 		<div id="page2" >
+    			
+   				 <section id="game1">
+      				<article>
+					<h2 class="alert alert-dismissable alert-warning"><center>Click On the RED Articles. </center></h2>
+    				<div id="c2"><img src="images/red_alien.png" id="c2"/></div>
+    				<div id="b"></div>
+    				</article>
+     				<hr/>
+    				<article id="img2">
+    					<img src="" class="red"  id="r3" >
+					<img src="images/blue1.png" class="blue"  id="b1">
+   					<img src="images/red1.png" class="red" id="r1">
+   					<img src="images/blue2.png" class="blue" id="b2">
+   					<img src="images/yellow3.png" class="yellow" id="y3" >
+   					<img src="images/red2.png" class="red" id="r2">
+   					<img src="images/green1.png" class="green" id="g1">
+   					<img src="images/green2.png" class="green" id="g2" >
+   					<img src="images/yellow1.png" class="yellow" id="y1" >
+   					<img src="images/green3.png" class="green" id="g3" >
+   					<img src="images/blue3.png" class="blue" id="b3" >
+   					<img src="images/yellow2.png" class="yellow" id="y2" >
+   					<img src="images/blue4.png" class="blue" id="b4" >
+   					<img src="images/red4.png" class="red" id="r4" >
+   					<img src="images/green4.png" class="green" id="g4" >
+   					<img src="images/yellow4.png" class="yellow" id="y4" >
+   
+      				</article> 
+      				<footer>
+      					<div class="label label-success">right:
+      						<span id="c"></span>
+      					</div>
+     					<div class="label label-danger">wrong:
+     						<span id="w"></span>
+     					</div>
+      				</footer>
+      				</section>
+  			
+ 		</div>
+ 
+ 
+ 
+ 		<div id="page3">
+ 			
+ 				<section id="game1">
+ 				<article>
+      				<h2 class="alert alert-dismissable alert-warning">Please help Mr.Red to Find his Friends</h2>
+     				</article>
+  				<section id="img3">
+    					<div id="l0"  class="fig"><img src="images/red_alien.png" id="l0" /></div>
+    					<div id="l1"  class="fig"><img src="" id="l1"  class="fig"/></div>
+    					<div id="l2"  class="fig"><img src="" id="l2"   class="fig"/></div>
+    					<div id="l3"  class="fig"><img src="" id="l3"  class="fig"/></div>
+    					<div id="l4"  class="fig"><img src="" id="l4"   class="fig"/></div>
+  				 </section> 
+   
+				<section id="characters" >
+					<br/>
+					<br/>
+					<hr/>
+      					<img src="images/red_alien.png"  class="red">
+   					<img src="images/blue_alien.png"  class="blue">
+   					<img src="images/yellow_alien.png"  class="yellow" >
+					<img src="images/green_alien.png"  class="green">
+				    	<img src="images/blue_alien.png"   class="blue">
+    					<img src="images/red_alien.png"  class="red" >
+   					<img src="images/yellow_alien.png"  class="yellow">
+   					<img src="images/green_alien.png"  class="green" >
+					<img src="images/yellow_alien.png"  class="yellow">
+					<img src="images/blue_alien.png"  class="blue" >
+ 					<img src="images/green_alien.png"  class="green" >
+ 					<img src="images/red_alien.png"  class="red">
+ 					<img src="images/yellow_alien.png"  class="yellow">
+ 					<img src="images/red_alien.png"  class="red">
+   					<img src="images/blue_alien.png"  class="blue" >
+    					<img src="images/green_alien.png"  class="green" >
+    				</section>
+
+      				<footer>
+      				<div class="label label-success">right:
+      					<span id="co"></span>
+      				</div>
+     				 <div class="label label-danger">wrong:
+     				 	<span id="wr"></span>
+     				 </div>
+      				</footer>
+				</section>
+ 			
+ 		</div>
+   		
+   		
+   		
+   	</div>
+ </main>
+ </body>
+ 
+</html>
